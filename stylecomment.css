@@ -1,0 +1,87 @@
+/* Styles généraux pour le corps de la page */
+body {
+  background-color: #000000; /* Fond noir */
+  color: #ffffff; /* Texte blanc */
+  font-family: 'Lora', serif; /* Police de caractères pour le texte principal */
+  text-align: center; /* Alignement centralisé du texte */
+}
+
+/* Styles pour les titres h1 à h6 */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Merriweather', serif; /* Police de caractères pour les titres */
+}
+
+/* Classe spécifique pour le texte centralisé */
+.brief {
+  text-align: center; /* Alignement centralisé du texte */
+}
+
+/* Styles pour la barre de navigation */
+.navbar {
+  background-color: #000000; /* Fond noir */
+}
+
+/* Styles pour le logo dans la barre de navigation */
+.navbar-brand img {
+  height: 40px; /* Hauteur fixe pour le logo */
+}
+
+/* Styles pour les liens de navigation */
+.navbar-nav .nav-link {
+  color: #ffc107 !important; /* Couleur dorée pour les liens de navigation */
+  font-family: 'Merriweather', serif; /* Police de caractères pour les liens de navigation */
+}
+
+/* Styles pour le texte dans la barre de navigation */
+.navbar-text {
+  color: #ffc107; /* Couleur dorée pour le texte dans la barre de navigation */
+  font-family: 'Merriweather', serif; /* Police de caractères pour le texte dans la barre de navigation */
+}
+
+/* Styles pour le premier carrousel */
+.custom-carousel {
+  width: 100vw; /* Largeur égale à la largeur de la fenêtre */
+  height: 100%; /* Hauteur ajustée automatiquement */
+  overflow: hidden; /* Masquage du contenu qui dépasse */
+  position: relative; /* Positionnement relatif pour contrôler les éléments enfants */
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+/* Styles pour les images dans le carrousel */
+.carousel-item img {
+  max-height: 600px; /* Hauteur maximale pour les images du carrousel */
+  object-fit: cover; /* Ajustement de l'image pour couvrir */
+  object-position: center; /* Position centrale de l'image */
+}
+
+/* Styles supplémentaires pour les images dans le carrousel */
+.carousel-inner img {
+  max-height: 600px; /* Hauteur maximale pour les images du carrousel */
+  object-fit: cover; /* Ajustement de l'image pour couvrir */
+}
+
+/* Styles pour les éléments individuels du carrousel */
+.carousel-item {
+  padding: 15px; /* Espacement interne des éléments du carrousel */
+}
+
+/* Styles pour les titres des éléments du carrousel */
+.carousel-item h3 {
+  font-family: 'Lora', serif; /* Police de caractères pour les titres */
+  font-weight: 700; /* Poids de la police (gras) */
+}
+
+/* Styles pour les paragraphes des éléments du carrousel */
+.carousel-item p {
+  font-family: 'Merriweather', serif; /* Police de caractères pour les paragraphes */
+  font-weight: 400; /* Poids de la police (normal) */
+}
+
+/* Styles pour les icônes de contrôle précédent et suivant du carrousel */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: black; /* Couleur de fond des icônes */
+  border-radius: 50%; /* Bordure arrondie des icônes */
+}

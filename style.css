@@ -1,0 +1,74 @@
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Lora', serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Merriweather', serif;
+}
+
+.brief {
+  text-align: center;
+}
+
+.navbar {
+  background-color: #000000;
+  color: #ffc107;
+}
+
+.navbar-brand img {
+  height: 40px;
+}
+
+.navbar-nav .nav-link {
+  color: #ffc107 !important;
+  font-family: 'Merriweather', serif;
+}
+
+.navbar-text {
+  color: #ffc107;
+  font-family: 'Merriweather', serif;
+}
+
+.custom-carousel {
+  width: 100vw;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.carousel-item img {
+  max-height: 600px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.carousel-inner img {
+  max-height: 600px;
+  object-fit: cover;
+}
+
+.carousel-item {
+  padding: 15px;
+}
+
+.carousel-item h3 {
+  font-family: 'Lora', serif;
+  font-weight: 700;
+}
+
+.carousel-item p {
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: black;
+  border-radius: 50%;
+}
